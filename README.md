@@ -1,7 +1,5 @@
-<div align="center">
-<h4>SA:MP Cheat</h4>
-</div>
-  
+<h2>SA:MP Cheat</h2>
+
 ## Requirements	
 * **Microsoft Visual Studio 2023**	
 * **DirectX Software Development Kit**	
