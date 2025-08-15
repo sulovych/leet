@@ -35,8 +35,7 @@ static DWORD WINAPI UnloadThread(HMODULE hModule)
 	if (pMenu) delete pMenu;
 	if (pTextures) delete pTextures;
 	if (pSAMP) delete pSAMP;
-		
-	return 0;
+	FreeLibraryAndExitThread(hModule, 0);
 }
 
 void Cheat::Unload()
